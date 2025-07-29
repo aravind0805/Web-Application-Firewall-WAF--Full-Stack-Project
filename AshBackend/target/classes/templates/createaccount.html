@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>A S H | SIGNin</title>
+    <link rel="stylesheet" href="/css/createaccount.css">
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.3/dist/purify.min.js"></script>
+    <script src="/js/createaccount.js"></script>
+</head>
+<body>
+    <h1>A S H</h1>
+    <div class="formdiv">
+        <form class="form" id="form_js" method="post" action="/Auth/register">
+            <h3>SIGNin</h3>
+            <input type="text" required minlength="5" maxlength="20" placeholder="Enter Username" id="username">
+            
+            <input type="email" required placeholder=" ,Enter Email ID" id="emailid">
+            
+            <input type="password" required minlength="8" placeholder="Enter Password" id="passwd">
+            
+            <input type="password" required minlength="8" placeholder="Confirm Password" id="cpasswd">
+            <br>
+            <button id="register" class="btn">REGISTER</button>
+            <br>
+            <a href="/login">Already have a Account!</a>
+        </form>
+    </div>
+
+</body>
+</html>

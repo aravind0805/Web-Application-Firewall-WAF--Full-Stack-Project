@@ -1,0 +1,75 @@
+body{
+    background-color: #f0f0f0;
+}
+.form{
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family:Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    text-decoration: none;
+    color: darkgreen;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    color: #45a049;
+    size: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+.formdiv {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: calc(100vh - 100px);
+  
+}
+.form {
+      display: flex;
+      flex-direction: column;
+      background: white;
+      align-items: center;
+      padding: 30px;
+      border-radius: 10px;
+      width: 300px;
+    }
+.form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border:2px solid #f0f0f0;
+    border-radius: 5px;
+    text-align: left;
+    cursor:text;
+}
+.form input:hover{
+    background-color: #f0f0f0;
+    color:darkgreen;
+    transition-duration: 0.5s;
+}
+.btn{
+    width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+}
+.btn:hover{
+    background-color:darkgreen;
+    color: white;
+    transition-duration: 0.5s;
+}
+a{
+    text-decoration: none;
+    color: #45a049;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    cursor: pointer;
+}
+.a:hover{
+    background-color: darkgreen;
+    transition-duration: 0.5s;
+}
